@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5; /* Light gray background for better readability */
+}
+
+.container {
+    width: 1100px;
+    margin: auto; /* Center the content on the page */
+    background-color: #fff; /* White background for the container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+.imageContainer {
+    text-align: center; /* Center align the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.main-image {
+    width: 100%; /* Responsive image width */
+    max-width: 800px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+table {
+    width: 100%; /* Table takes full width */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Space within cells */
+    text-align: center; /* Center text in table cells */
+}
+
+th {
+    background-color: #eaeaea; /* Light gray for header */
+}
+
+.row-image {
+    width: 100%; /* Make row images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
